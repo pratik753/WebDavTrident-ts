@@ -1,0 +1,41 @@
+.fileColor {
+    color: blue;
+}
+
+.folderColor {
+    color: brown;
+}
+
+.selected {
+    color: green;
+    font-size: 2rem;
+}
+
+.cont {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    background-color: rgb(151, 226, 231);
+    width: 41%;
+    height: 40%;
+    border-radius: 2rem;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    /* font-weight: bolder; */
+    /* font-size: 1rem; */
+    font-family: Public Sans, sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    transition-duration: .5s;
+}
+
+.item:hover {
+    padding: 1.2rem;
+    background-color: rgb(142, 190, 194);
+    border-bottom: .1rem solid black;
+}
